@@ -1,0 +1,32 @@
+{
+  "workbench.colorTheme": "Dracula Theme", // Tema da IDE
+  "editor.lineHeight": 2, // altura da linha do código
+  "editor.tabSize": 2, // tamanho padrão do espaçamento
+  "editor.fontSize": 16, // tamanho da fonte
+  "terminal.integrated.fontSize": 14, // tamanho da fonte do terminal
+  "workbench.startupEditor": "newUntitledFile", //sempre abrir o vs com um arquivo novo
+  "editor.wordWrap": "on", //não deixar criar a barra de rolagem de baixo, quebra a linha visualmente
+  "editor.minimap.renderCharacters": false, // forma de exibição do mini mapa
+  "telemetry.telemetryLevel": "off", //parar de enviar formulário pra windows
+  "security.workspace.trust.untrustedFiles": "open", // parar de aparecer msg de segurança sempre que abrir um arquivo
+  "breadcrumbs.filePath": "off", //não mostrar o documento no caminho da tag
+  "outline.icons": false, // não mostrar icon no caminho da tag
+  "liveServer.settings.donotShowInfoMsg": true, //tirar avisos do LiveServer
+  "liveServer.settings.donotVerifyTags": true, //tirar avisos do LiveServer
+  "editor.formatOnSave": true, // organizar automaticamente ao salvar
+  "html.format.wrapAttributes": "auto", //mudando apenas o jeito que os atributos são quebrados
+  "html.format.wrapLineLength": 0, //e o tamanho da linha ao salvar
+  // "html.autoClosingTags": false, // parar de ficar fechando tag autometica qdo está no meio da tag.
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // botando o prettier como editor padrão de formatação
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features" //menos pro HTML
+  },
+  "workbench.iconTheme": "material-icon-theme", // tema dos icones da IDE
+  "window.zoomLevel": 1, // Zoom inicial
+  "files.autoSave": "afterDelay", // Auto Save habilitado
+  "explorer.confirmDelete": false, // Não pedir confirmação para deletar
+  "explorer.compactFolders": false, // Não compactar pastas
+  "typescript.updateImportsOnFileMove.enabled": "always", // Sempre atualiza automaticamente o caminho das importações
+  "javascript.updateImportsOnFileMove.enabled": "always", // Mesma coisa só que para os arquivos javascript
+  "editor.minimap.enabled": false // desativa o mini mapa lateral
+}
